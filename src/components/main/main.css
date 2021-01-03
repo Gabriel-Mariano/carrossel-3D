@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-attachment: fixed;
+    background: url('../../assets/wallpaper.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    position: relative;
+    width:210px;
+    height:400px;
+    perspective: 1000px;
+}
+
+
+
