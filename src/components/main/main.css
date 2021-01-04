@@ -35,8 +35,22 @@ body{
     transform: translateZ(-288px);
     transform-style: preserve-3d;
     transition: transform 1s;
-
   }
+
+  .buttons{
+    width: inherit;
+    height: inherit;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+button{
+    cursor: pointer;
+    width:90px;
+    height:35px;
+}
 
   
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Card from '../card/card';
 import './main.css';
 
@@ -13,7 +13,9 @@ import venom  from '../../assets/venom.png';
 import mysterio  from '../../assets/mysterio.png';
 
 function Carousel(){
-    
+    const [selectIndex,setSelectIndex] = useState(0);
+    const [angle,setAngle] = useState(0);
+    const cellCount = 9;
     const person = [{
         id:1,
         name:'Spider-Man',
@@ -53,10 +55,28 @@ function Carousel(){
     }
 ];
 
+function rotate(){
+    var ang = selectIndex / cellCount * -360;
+        setAngle(ang);
+}
+function prev(){
+    setSelectIndex(selectIndex-1);
+    console.log(selectIndex)
+}
+function next(){
+    setSelectIndex(selectIndex+1);
+    console.log(selectIndex)
+}
+
+useEffect(()=>{
+    rotate();
+},[selectIndex]);
+
     return(
         <div className="container">
+            <h1></h1>
             <div className="carousel" style={{
-                
+                transform:'translateZ(-288px) rotateY(' + angle + 'deg)'
             }}>
                 { /* conteúdo do carrossel */}
                 {person.map((value,index)=>{
@@ -64,6 +84,10 @@ function Carousel(){
                         <Card key={index} data={value}></Card>
                     );
                 })}
+            </div>
+            <div className="buttons">
+                <button onClick={prev}>Prev</button>
+                <button onClick={next}>Next</button>
             </div>
         </div>
     );
