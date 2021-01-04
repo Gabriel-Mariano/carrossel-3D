@@ -12,17 +12,16 @@ body{
 
 .container{
     /* border:1px solid #CCC; */
-    margin: 40px 0;
     position: relative;
     width: 210px;
     height: 400px; /* 310*/
     margin: 40px auto;
     perspective: 1000px;
     
+    
 }
 
 .container h1{
-    margin-top:60px;
     font-family:The Amazing Spider-man;
     font-weight: bold;
     color:#fff;

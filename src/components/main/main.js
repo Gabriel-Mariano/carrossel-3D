@@ -13,6 +13,7 @@ import electro  from '../../assets/electro.png';
 import carnage  from '../../assets/carnage.png';
 import venom  from '../../assets/venom.png';
 import mysterio  from '../../assets/mysterio.png';
+import logo from '../../assets/logo.png';
 
 function Carousel(){
     const [selectIndex,setSelectIndex] = useState(0);
@@ -76,7 +77,7 @@ useEffect(()=>{
 
     return(
         <div className="container">
-            <h1></h1>
+            <img src={logo} alt="logo" style={{ width:'200px', height:'100px'}}/>
             <div className="carousel" style={{
                 transform:'translateZ(-288px) rotateY(' + angle + 'deg)'
             }}>
