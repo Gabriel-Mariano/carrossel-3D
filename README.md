@@ -1,6 +1,6 @@
 # Carrossel de Imagens 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![preview-carrossel](https://github.com/Gabriel-Mariano/carrossel-3D/blob/main/src/assets/overview.png).
 
 ## Visão Geral
 
