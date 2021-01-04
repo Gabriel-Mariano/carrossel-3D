@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Card from '../card/card';
+
+import {BiRightArrowCircle,BiLeftArrowCircle} from 'react-icons/bi';
 import './main.css';
 
 import spider from '../../assets/spider.png';
@@ -86,8 +88,8 @@ useEffect(()=>{
                 })}
             </div>
             <div className="buttons">
-                <button onClick={prev}>Prev</button>
-                <button onClick={next}>Next</button>
+                <button onClick={prev}><BiLeftArrowCircle fontSize={20} color='#282c38'></BiLeftArrowCircle></button>
+                <button onClick={next}><BiRightArrowCircle fontSize={20} color='#282c38'></BiRightArrowCircle></button>
             </div>
         </div>
     );
