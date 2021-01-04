@@ -1,4 +1,4 @@
-# Carrossel de Imagens 
+# Carrossel de Imagens 🎠🕷
 
 ![preview-carrossel](https://github.com/Gabriel-Mariano/carrossel-3D/blob/main/src/assets/overview.png).
 
@@ -11,7 +11,7 @@ em 3D, além de responsivo/fluido.
 
 - [React-icons](https://react-icons.github.io/react-icons/)
 
-**Obs:** Desta vez optei em utilizar somente a biblioteca React-icons, diferentemente do último projeto construído[SlideShow](https://github.com/Gabriel-Mariano/slider), onde usei também styled-components para estilização da interface.
+**Obs:** Desta vez optei em utilizar somente a biblioteca React-icons, diferentemente do último projeto construído [SlideShow](https://github.com/Gabriel-Mariano/slider), onde usei também styled-components para estilização da interface.
 
 
 ## Abusando dos Hooks do React
