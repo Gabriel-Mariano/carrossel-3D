@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Carrossel de Imagens 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Visão Geral
 
-In the project directory, you can run:
+Deixo aqui mais uma pequena colaboração para a comunidade. Um layout original a partir de uma perspectiva
+em 3D, além de responsivo/fluido.  
 
-### `yarn start`
+## Biblioteca Utilizada na Construção da Interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React-icons](https://react-icons.github.io/react-icons/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Obs:** Desta vez optei em utilizar somente a biblioteca React-icons, diferentemente do último projeto construído[SlideShow](https://github.com/Gabriel-Mariano/slider), onde usei também styled-components para estilização da interface.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Abusando dos Hooks do React
+- [Introdução aos Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+- [useState](https://pt-br.reactjs.org/docs/hooks-state.html)
+- [useEffect](https://pt-br.reactjs.org/docs/hooks-effect.html)
 
-### `yarn build`
+### Run Carrossel-3D
+Lembre-se de instalar o gerenciador de pacotes **npm**. Depois de clonar a pasta do projeto do github e acessa-lá via prompt, utilize o comando **npm install**. 
+Com seu gerenciador de pacotes instalado você já poderá executar o projeto com _npm start_. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contruibuindo
+Desde já agredeco por se interessar em deixar este projeto melhor. Encorajo a todos ajudar na evolução deste projeto adicionando novas features ou corrigindo possíveis bugs. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença 
+MIT © Gabriel Mariano
