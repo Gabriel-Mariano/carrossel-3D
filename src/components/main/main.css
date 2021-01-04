@@ -3,20 +3,42 @@
 }
 
 body{
-    width:100vw;
-    height:100vh;
+    background: url('../../assets/wallpaper.jpg');
     background-attachment: fixed;
-    background: url('../../assets/wallpaper.jpg')no-repeat;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container{
+    /* border:1px solid #CCC; */
+    margin: 40px 0;
     position: relative;
-    width:210px;
-    height:400px;
+    width: 210px;
+    height: 400px; /* 310*/
+    margin: 40px auto;
     perspective: 1000px;
+    
 }
+
+.container h1{
+    margin-top:60px;
+    font-family:The Amazing Spider-man;
+    font-weight: bold;
+    color:#fff;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform: translateZ(-288px);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+
+  }
+
+  
 
 
 

@@ -1,0 +1,41 @@
+
+.card{
+  perspective: 40px;
+  position: absolute;
+  width: 205px;
+  height: 330px;
+  left: 10px;
+  top: 10px;
+  
+  
+  font-size: 60px;
+  font-family:calibri; 
+  font-weight: bold;
+  color: white;
+  text-align: center;
+ /*background-color: #282c38; */
+  background-image: radial-gradient(circle,#282c38,#131418); 
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  }
+  
+  .card img{
+      width:200;
+      height:200px;
+      transform-style: preserve-3d;
+  }
+
+.card:nth-child(1) { transform: rotateY(  0deg) translateZ(288px); }
+.card:nth-child(2) { transform: rotateY( 40deg) translateZ(288px); }
+.card:nth-child(3) { transform: rotateY( 80deg) translateZ(288px); }
+.card:nth-child(4) { transform: rotateY(120deg) translateZ(288px); }
+.card:nth-child(5) { transform: rotateY(160deg) translateZ(288px); }
+.card:nth-child(6) { transform: rotateY(200deg) translateZ(288px); }
+.card:nth-child(7) { transform: rotateY(240deg) translateZ(288px); }
+.card:nth-child(8) { transform: rotateY(280deg) translateZ(288px); }
+.card:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }

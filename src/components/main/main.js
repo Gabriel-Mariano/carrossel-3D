@@ -1,8 +1,9 @@
-import React,{useState} from 'react';
+import React from 'react';
+import Card from '../card/card';
 import './main.css';
 
 import spider from '../../assets/spider.png';
-import octopus  from '../../assets/octopus2.png';
+import octopus  from '../../assets/octopus.png';
 import rhino  from '../../assets/rhino.png';
 import scorpion  from '../../assets/scorpion.png';
 import fisk  from '../../assets/fisk.png';
@@ -12,6 +13,7 @@ import venom  from '../../assets/venom.png';
 import mysterio  from '../../assets/mysterio.png';
 
 function Carousel(){
+    
     const person = [{
         id:1,
         name:'Spider-Man',
@@ -20,7 +22,6 @@ function Carousel(){
         id:2,
         name:'Venom',
         image:venom
-
     },{
         id:3,
         name:'Rhino',
@@ -51,11 +52,18 @@ function Carousel(){
         image:carnage
     }
 ];
+
     return(
         <div className="container">
-            <div className="carousel">
-                { /* conteúdo do carrossel */}
+            <div className="carousel" style={{
                 
+            }}>
+                { /* conteúdo do carrossel */}
+                {person.map((value,index)=>{
+                    return (
+                        <Card key={index} data={value}></Card>
+                    );
+                })}
             </div>
         </div>
     );
